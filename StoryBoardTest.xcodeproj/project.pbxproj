@@ -15,6 +15,7 @@
 		C0BE220C14984E7C00CED8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BE220B14984E7C00CED8F8 /* AppDelegate.m */; };
 		C0BE220F14984E7C00CED8F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BE220D14984E7C00CED8F8 /* MainStoryboard.storyboard */; };
 		C0BE221214984E7D00CED8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BE221114984E7D00CED8F8 /* ViewController.m */; };
+		C0BE221A14984F0F00CED8F8 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BE221914984F0F00CED8F8 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		C0BE21FB14984E7C00CED8F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0BE21FD14984E7C00CED8F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0BE21FF14984E7C00CED8F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C0BE220314984E7C00CED8F8 /* StoryBoardTest-Info.plist */ = {isa = PBXFileReference; path = "StoryBoardTest-Info.plist"; sourceTree = "<group>"; };
+		C0BE220314984E7C00CED8F8 /* StoryBoardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTest-Info.plist"; sourceTree = "<group>"; };
 		C0BE220514984E7C00CED8F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0BE220714984E7C00CED8F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0BE220914984E7C00CED8F8 /* StoryBoardTest-Prefix.pch */ = {isa = PBXFileReference; path = "StoryBoardTest-Prefix.pch"; sourceTree = "<group>"; };
-		C0BE220A14984E7C00CED8F8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0BE220914984E7C00CED8F8 /* StoryBoardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardTest-Prefix.pch"; sourceTree = "<group>"; };
+		C0BE220A14984E7C00CED8F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0BE220B14984E7C00CED8F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C0BE220E14984E7C00CED8F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C0BE221014984E7C00CED8F8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C0BE221014984E7C00CED8F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C0BE221114984E7D00CED8F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0BE221814984F0F00CED8F8 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		C0BE221914984F0F00CED8F8 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				C0BE220A14984E7C00CED8F8 /* AppDelegate.h */,
 				C0BE220B14984E7C00CED8F8 /* AppDelegate.m */,
 				C0BE220D14984E7C00CED8F8 /* MainStoryboard.storyboard */,
+				C0BE221814984F0F00CED8F8 /* ResultViewController.h */,
+				C0BE221914984F0F00CED8F8 /* ResultViewController.m */,
 				C0BE221014984E7C00CED8F8 /* ViewController.h */,
 				C0BE221114984E7D00CED8F8 /* ViewController.m */,
 				C0BE220214984E7C00CED8F8 /* Supporting Files */,
@@ -164,6 +169,7 @@
 				C0BE220814984E7C00CED8F8 /* main.m in Sources */,
 				C0BE220C14984E7C00CED8F8 /* AppDelegate.m in Sources */,
 				C0BE221214984E7D00CED8F8 /* ViewController.m in Sources */,
+				C0BE221A14984F0F00CED8F8 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

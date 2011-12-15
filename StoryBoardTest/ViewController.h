@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+{
+    UITextField *_lastEditTextField;
+}
+
+- (void)EverythingCapture;
+- (void)NormalCapture;
+
+- (void)onUIKeyboardWillShowNotification:(NSNotification *)notification;
+- (void)onUIKeyboardDidShowNotification:(NSNotification *)notification;
+- (void)onUIKeyboardWillHideNotification:(NSNotification *)notification;
+- (void)onUIKeyboardDidHideNotification:(NSNotification *)notification;
+
+
+@property (weak, nonatomic) IBOutlet UIScrollView *_scrollView;
 
 @end
+
+CGImageRef UIGetScreenImage(void);
